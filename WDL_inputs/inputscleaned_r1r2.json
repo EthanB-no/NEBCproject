@@ -1,0 +1,135 @@
+{
+  "STAR2Pass.samples": [
+    {
+      "omics_sample_name": "BC01",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC01/BC01_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC01/BC01_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC02",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC02/BC02_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC02/BC02_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC03",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC03/BC03_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC03/BC03_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC04",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC04/BC04_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC04/BC04_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC05",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC05/BC05_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC05/BC05_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC07_tumor",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC07_tumor/BC07_tumor_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC07_tumor/BC07_tumor_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC07",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC07/BC07_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC07/BC07_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_A1A2_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_A1A2_1/BC08_A1A2_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_A1A2_1/BC08_A1A2_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_A1A2_2",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_A1A2_2/BC08_A1A2_2_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_A1A2_2/BC08_A1A2_2_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_NTC_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_NTC_1/BC08_NTC_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_NTC_1/BC08_NTC_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_NTC_2",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_NTC_2/BC08_NTC_2_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_NTC_2/BC08_NTC_2_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_oeA2_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_oeA2_1/BC08_oeA2_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_oeA2_1/BC08_oeA2_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_oeA2_2",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_oeA2_2/BC08_oeA2_2_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_oeA2_2/BC08_oeA2_2_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_shA1_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_shA1_1/BC08_shA1_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_shA1_1/BC08_shA1_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_shA1_2",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_shA1_2/BC08_shA1_2_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_shA1_2/BC08_shA1_2_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08_tumor",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_tumor/BC08_tumor_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08_tumor/BC08_tumor_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC08",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08/BC08_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC08/BC08_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC09_tumor",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC09_tumor/BC09_tumor_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC09_tumor/BC09_tumor_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC09",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC09/BC09_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC09/BC09_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC10_tumor",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC10_tumor/BC10_tumor_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC10_tumor/BC10_tumor_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC10",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC10/BC10_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC10/BC10_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC2_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_1/BC2_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_1/BC2_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC2_2",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_2/BC2_2_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_2/BC2_2_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC2_3",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_3/BC2_3_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC2_3/BC2_3_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "BC7_1",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC7_1/BC7_1_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/BC7_1/BC7_1_2.fq.gz"
+    },
+    {
+      "omics_sample_name": "Norm_bla",
+      "R1": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/Norm_bla/Norm_bla_1.fq.gz",
+      "R2": "/fh/fast/mian_o/grp/Mianlab/Yvonne/NEBC_Project/Data/Norm_bla/Norm_bla_2.fq.gz"
+    }
+  ]
+  
+}
