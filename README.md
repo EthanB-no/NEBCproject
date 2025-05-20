@@ -5,7 +5,7 @@ wdl_inputs
 R_Scripts
     -> post wdl analysis
 data
-    -> raw counts file from wdl script
+    -> raw counts file from wdl script + featurecounts()
 outputs
     -> relevant graphs etc
 
