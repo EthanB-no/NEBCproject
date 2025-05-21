@@ -6,7 +6,7 @@ library(EnhancedVolcano)
 library(dplyr)
 
 # 2. Read counts and sample info
-counts <- read.csv("./5-14_results/documentation/PCA_Lines_Counts.csv", row.names = 1)
+counts <- read.csv("./Data/pc_counts_5-20.csv", row.names = 1)
 colData <- read.csv("./5-14_results/documentation/PCA_BC_lines_Coldata.CSV", row.names = 1)
 
 
