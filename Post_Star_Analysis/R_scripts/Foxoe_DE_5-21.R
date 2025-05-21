@@ -68,7 +68,7 @@ res$Significant <- ifelse(res$adj.P.Val < 0.01 & abs(res$logFC) > 2, "Yes", "No"
 write.csv(res, file = "./5-21_Foxa2_res.csv", row.names = TRUE)
 
 #################################################################################
-plotting!
+#plotting!
 ##################################################################################
 
 #build XY data table
