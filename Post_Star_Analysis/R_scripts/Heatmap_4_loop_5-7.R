@@ -6,7 +6,7 @@ library(dplyr)
 library(RColorBrewer)
 
 # Read in data
-counts <- read.csv("./WDLSTAR_counts_matrix(in).csv", row.names = 1)
+counts <- read.csv("./Data/pc_counts_5-20.csv", row.names = 1)
 count_matrix <- as.matrix(counts)
 
 colData <- read.csv("./WDL_ColData.CSV", row.names = 1)
@@ -19,8 +19,8 @@ dds <- DESeqDataSetFromMatrix(countData = count_matrix,
                               design = ~ condition)
 
 # (Optional) filter low-expressed genes
-# keep <- rowSums(counts(dds) >= 10) >= 4
-# dds <- dds[keep,]
+keep <- rowSums(counts(dds) >= 10) >= 4
+dds <- dds[keep,]
 
 dds <- estimateSizeFactors(dds)
 vst <- varianceStabilizingTransformation(dds)

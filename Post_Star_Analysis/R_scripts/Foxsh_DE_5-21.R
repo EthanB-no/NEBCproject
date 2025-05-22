@@ -61,11 +61,25 @@ fit <- eBayes(fit)
 res <- topTable(fit, coef = "groupFoxA1ShortSH", number = Inf, sort.by = "logFC")
 colnames(fit$coefficients)
 res$symbol <- rownames(res) 
-res$Significant <- ifelse(res$adj.P.Val < 0.01 & abs(res$logFC) > 1.9, "Yes", "No")
+res$Significant <- ifelse(res$adj.P.Val < 0.01 & abs(res$logFC) > 1.5, "Yes", "No")
 
+# 9. Save to CSV + annotate
+library(org.Mm.eg.db)
+library(AnnotationDbi)
+
+# Map gene symbols to full gene names (e.g., full descriptions)
+gene_info <- select(org.Mm.eg.db,
+                    keys = res$symbol,
+                    columns = c("SYMBOL", "GENENAME"),
+                    keytype = "SYMBOL")
+
+# Join the result with your res table
+res_annotated <- left_join(res, gene_info, by = c("symbol" = "SYMBOL"))
+res_annotated <- res_annotated %>%
+  dplyr::select(symbol, everything())
 
 # 9. Save to CSV
-write.csv(res, file = "./5-21_Foxa1sh_res.csv", row.names = TRUE)
+write.csv(res_annotated, file = "./5-21_Foxa1sh_res.csv", row.names = FALSE)
 
 #################################################################################
 #plotting!
@@ -73,7 +87,7 @@ write.csv(res, file = "./5-21_Foxa1sh_res.csv", row.names = TRUE)
 
 #build XY data table
 # Set a log2 fold change threshold of 1
-de_status <- decideTests(fit, lfc = 1.9, p.value = 0.01)
+de_status <- decideTests(fit, lfc = 1.5, p.value = 0.01)
 summary(de_status)
 
 

@@ -1,0 +1,2 @@
+"","ONTOLOGY","ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"GO:0005488","MF","GO:0005488","binding",13,0.761501407833577,1.68464390237323,0.044142780185428,0.044142780185428,0.904761904761905,11,"tags=85%, list=69%, signal=141%","Hhip/Rbp1/Nxn/Narf/Il1r1/Usp11/Lpl/Kif26b/Apol6/Hmcn1/Epha7"
